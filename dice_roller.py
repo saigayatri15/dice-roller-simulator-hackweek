@@ -54,9 +54,6 @@ def clear_screen():
     else:  # For Unix-based systems (Linux, macOS)
         os.system('clear')
 
-# Call the function to clear the screen
-clear_screen()
-
 def roll_dice():
     result=random.randint(1,6)
     clear_screen()
